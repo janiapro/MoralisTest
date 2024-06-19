@@ -103,7 +103,17 @@ The K6 load tests are designed to test the performance of the Ethereum RPC API m
 
 ### Running the K6 Load Tests
 
-1. **Run the K6 tests using the shell script:**
+1. **Go in the K6 directoy:**
+    ```sh
+    cd k6loadtest
+    ```
+
+2. **Make the shell script executable:**
+    ```sh
+    chmod +x run-tests.sh
+    ```
+
+3. **Run the K6 tests using the shell script:**
     ```sh
     ./run-tests.sh
     ```
