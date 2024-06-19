@@ -1,0 +1,28 @@
+{
+  "name": "MoralisTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "test:rpc": "jest tests/rpc.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "2captcha": "^3.0.5-2",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "moralis": "^2.26.5",
+    "playwright": "^1.44.1",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.14.2",
+    "jest": "^29.7.0"
+  }
+}
