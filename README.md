@@ -18,7 +18,7 @@ This project contains automated tests for the Moralis Admin panel, demonstrating
 ## Setup Instructions
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/yourusername/MoralisTest.git
+    git clone https://github.com/janiapro/MoralisTest.git
     cd MoralisTest
     ```
 
